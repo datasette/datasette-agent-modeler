@@ -1,0 +1,43 @@
+[project]
+name = "datasette-agent-modeler"
+version = "0.1"
+description = "3D modelling tools for Datasette Agent - create and edit 3D models from chat"
+readme = "README.md"
+authors = [{name = "Simon Willison"}]
+license = "Apache-2.0"
+classifiers=[
+    "Framework :: Datasette"
+]
+requires-python = ">=3.10"
+dependencies = [
+    "datasette>=1.0a28",
+    "datasette-agent>=0.1a3"
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "pytest-asyncio"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project.urls]
+Homepage = "https://github.com/simonw/datasette-agent-modeler"
+Changelog = "https://github.com/simonw/datasette-agent-modeler/releases"
+Issues = "https://github.com/simonw/datasette-agent-modeler/issues"
+CI = "https://github.com/simonw/datasette-agent-modeler/actions"
+
+[project.entry-points.datasette]
+agent_modeler = "datasette_agent_modeler"
+
+[tool.pytest.ini_options]
+asyncio_mode = "strict"
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.setuptools.package-data]
+datasette_agent_modeler = ["static/*"]
+
