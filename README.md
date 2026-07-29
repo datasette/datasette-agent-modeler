@@ -7,6 +7,10 @@
 
 3D modelling tools for Datasette Agent - create and edit 3D models from chat
 
+## Screenshot
+
+![A Datasette Agent chat session - user has prompted "put the cat in the pot" - result is a 3D rendered cat sitting in a pot in a panel that allows for rotation of the model.](https://raw.githubusercontent.com/datasette/datasette-agent-modeler/refs/heads/main/cat-in-a-pot.webp)
+
 ## Installation
 
 Install this plugin in the same environment as Datasette.
