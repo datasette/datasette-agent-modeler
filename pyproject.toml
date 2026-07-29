@@ -1,6 +1,6 @@
 [project]
 name = "datasette-agent-modeler"
-version = "0.1"
+version = "0.1a0"
 description = "3D modelling tools for Datasette Agent - create and edit 3D models from chat"
 readme = "README.md"
 authors = [{name = "Simon Willison"}]
