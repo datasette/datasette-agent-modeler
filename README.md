@@ -1,9 +1,9 @@
 # datasette-agent-modeler
 
 [![PyPI](https://img.shields.io/pypi/v/datasette-agent-modeler.svg)](https://pypi.org/project/datasette-agent-modeler/)
-[![Changelog](https://img.shields.io/github/v/release/simonw/datasette-agent-modeler?include_prereleases&label=changelog)](https://github.com/simonw/datasette-agent-modeler/releases)
-[![Tests](https://github.com/simonw/datasette-agent-modeler/actions/workflows/test.yml/badge.svg)](https://github.com/simonw/datasette-agent-modeler/actions/workflows/test.yml)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/simonw/datasette-agent-modeler/blob/main/LICENSE)
+[![Changelog](https://img.shields.io/github/v/release/datasette/datasette-agent-modeler?include_prereleases&label=changelog)](https://github.com/datasette/datasette-agent-modeler/releases)
+[![Tests](https://github.com/datasette/datasette-agent-modeler/actions/workflows/test.yml/badge.svg)](https://github.com/datasette/datasette-agent-modeler/actions/workflows/test.yml)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/datasette/datasette-agent-modeler/blob/main/LICENSE)
 
 3D modelling tools for Datasette Agent - create and edit 3D models from chat
 

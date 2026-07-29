@@ -26,10 +26,10 @@ build-backend = "setuptools.build_meta"
 
 
 [project.urls]
-Homepage = "https://github.com/simonw/datasette-agent-modeler"
-Changelog = "https://github.com/simonw/datasette-agent-modeler/releases"
-Issues = "https://github.com/simonw/datasette-agent-modeler/issues"
-CI = "https://github.com/simonw/datasette-agent-modeler/actions"
+Homepage = "https://github.com/datasette/datasette-agent-modeler"
+Changelog = "https://github.com/datasette/datasette-agent-modeler/releases"
+Issues = "https://github.com/datasette/datasette-agent-modeler/issues"
+CI = "https://github.com/datasette/datasette-agent-modeler/actions"
 
 [project.entry-points.datasette]
 agent_modeler = "datasette_agent_modeler"
@@ -40,4 +40,3 @@ asyncio_default_fixture_loop_scope = "function"
 
 [tool.setuptools.package-data]
 datasette_agent_modeler = ["static/*"]
-
